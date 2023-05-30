@@ -1,7 +1,7 @@
 import React from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaFacebookF, FaTwitter, FaLinkedinIn, FaReact } from "react-icons/fa";
-import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiNodedotjs, SiDjango, SiPython } from "react-icons/si";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
@@ -16,7 +16,7 @@ const LeftBanner = () => {
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
         <h1 className="text-4xl lgl:text-6xl font-bold text-white">
-          Hi, I'm{" "}
+          Hi, I'm
           <span className="text-designColor capitalize">Bruno Silva</span>
         </h1>
         <h2 className=" text-2xl lgl:text-4xl font-bold text-white">
@@ -61,13 +61,13 @@ const LeftBanner = () => {
               <FaReact />
             </span>
             <span className="bannerIcon">
-              <SiNextdotjs />
+              <SiPython />
             </span>
             <span className="bannerIcon">
-              <SiTailwindcss />
+              <SiDjango />
             </span>
             <span className="bannerIcon">
-              <SiFigma />
+              <SiNodedotjs />
             </span>
           </div>
         </div>

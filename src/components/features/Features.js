@@ -1,7 +1,7 @@
 import React from "react";
 import { AiFillAppstore } from "react-icons/ai";
 import { FaMobile, FaGlobe, FaReact, FaPython, FaNodeJs } from "react-icons/fa";
-import { SiAntdesign } from "react-icons/si";
+import { SiDjango } from "react-icons/si";
 import Title from "../layouts/Title";
 import Card from "./Card";
 
@@ -46,10 +46,10 @@ const Features = () => {
           icon={<FaPython />}
         />
         <Card
-          title="UX Design"
+          title="Django"
           des="Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque soluta
           hic consequuntur eum repellendus ad."
-          icon={<SiAntdesign />}
+          icon={<SiDjango />}
         />
         <Card
           title="Hosting Websites"
